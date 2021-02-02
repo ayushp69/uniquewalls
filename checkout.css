@@ -1,0 +1,23 @@
+.grid-container{
+   
+    margin: 50px;
+    /* margin-right:-10px;  */
+   display: grid;
+    grid-template-columns: 200px 200px 200px 200px ;
+    grid-gap: 190px;
+    row-gap: 105px;
+    width: 54%;
+    background: black;
+
+}
+
+
+.grid-item{
+    height: 140px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: black 2px solid;
+ 
+}
